@@ -22,7 +22,7 @@ This is my final project to setup *JOOMLA* WebApp using *Docker* under the mento
 * Use `#docker volume create <name of volume2>` .
 ![create storage for joomla](docker%20images/4_another%20volume%20create.png)
 * Use `#docker run -dit  -e JOOMLA_DB_HOST=<hostname of container having mysql>  -e JOOMLA_DB_USER=<user name>  -e JOOMLA_DB_PASSWORD=<password for user account>  -e JOOMLA_DB_NAME=<name of folder inside MySQL which will be your database>  -v <name of volume2>:/var/www/html  --name <container name>  -p <port no. of router i.e. exposed port>:<port no. of services running inside your server>  --link <hostname of container having mysql>  joomla:3.9-php7.2-apache` .
-![run joomla](docker%20images/5_run%20joomla.png)
+![run joomla](docker%20images/5_run%20joomla.jpeg)
 
 ## Now, you can see in your browser by typing  `<ip address>:<port no. that you have exposed>`
 ![joomla on chrome browser](docker%20images/6_joomla%20on%20browser.jpeg)
