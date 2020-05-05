@@ -30,15 +30,14 @@ This is my final project to setup *JOOMLA* WebApp using *Docker* under the mento
 ## 5. Docker-compose:
 * Before using Docker-Compose you should install the software. For reference go to this website : https://docs.docker.com/compose/install/
 * You can create and edit this file using vim editor. For that use `#vim docker-compose.yml`. Remember the file name should always be **docker-compose.yml**. You can change but, in later.
-![yml file](docker%20images/8_yml%20file1.png)
-![yml file continued](docker%20images/9_yml%20file2.png)
+![yml file](docker%20images/8_yml%20file.png)
+![yml file continued](docker%20images/9_yml%20file_2.png)
 ## 6. Docker-compose up/down or start/stop:
 * We have copied entire infrastructure in one single file. Now it is ready to go !!! Now, you will come to know about the role of Docker. How it is so fast !!!
 * Use `#docker-compose up` and `#docker-compose down` to start and stop services respectively.
  ![docker compose up](docker%20images/10_docker%20compose%20up.png)
- ![docker compose up output](docker%20images/10_output.png)
  ![docker compose down](docker%20images/11_docker%20compose%20down.png)
- ![docker compose down output](docker%20images/11_output.png)
+
  
  ## 7. Finally , your WebApp can be seen:
 ## TROUBLESHOOT:
